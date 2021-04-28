@@ -14,6 +14,7 @@
     width:100%;
     margin:0 auto;
 } */
+
 header{
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -28,7 +29,6 @@ header{
 
 .navbar{
     height: 120px;
-    border: 5px yellow solid;
     color:white;
     line-height: 34px;
 }
@@ -49,20 +49,17 @@ nav.navbar .menu li{
 nav.navbar .menu{
     width:60%;
     height:100%;
-    border: 3px red solid;
     text-align:center;
 }
 
 nav.navbar .logo{
     width: 20%;
     height: 100%;
-    border: 3px red solid;
 }
 
 nav.navbar .login{
     width: calc(20% - 80px);
     height: 100%;
-    border: 3px red solid;
     margin-left: 80px;
 }
 
@@ -76,7 +73,6 @@ nav.navbar .login{
 .container-small{
     width: 1000px;
     height:380px;
-    border: 5px greenyellow   solid;
  } 
 
 .text{
@@ -112,24 +108,21 @@ nav.navbar .login{
     margin-left: 20px;
 }
 
-.container-1{
+.container-1, .container-2, .container-3{
     width: 1000px;
     height: 480px;
     margin: 0 auto;
-    border: 4px red solid;
 }
 
 .item1{
     width: 60%;
-    border: 3px black solid;
 }
 
-.text1{
+.text1, .text2, .text3{
     width:25%;
     position: relative;
     top:100px;
-    border: 4px orange solid;
-}
+ }
 
 .container-1 h1{
     font-size: 35px;
@@ -137,6 +130,34 @@ nav.navbar .login{
     line-height: 1;
 }
 
-.container-1 p{
+p{
     font-size: 15px;
 }
+/* .container-2{
+    background: url(../img/wave.svg) repeat 0 0;
+
+} */
+
+.item2{
+     width: 65%;
+     position:relative;
+     left:80px;
+}
+
+.item3{
+    width: 60%;
+}
+/* 
+.container-4{
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+    border: 4px red solid;
+} */
+
+/* .item4{
+ position:absolute;
+ top:50%;
+ left:50%;
+ transform: translate(-50%, -50% )
+} */
